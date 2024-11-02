@@ -5,17 +5,29 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #2563eb; /* Royal Blue */
+  --secondary: #10b981; /* Emerald */
+  --accent: #8b5cf6; /* Purple */
+  --warning: #f59e0b; /* Amber */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #3b82f6; /* Lighter Blue for dark mode */
+    --secondary: #34d399; /* Lighter Emerald */
+    --accent: #a78bfa; /* Lighter Purple */
+    --warning: #fbbf24; /* Lighter Amber */
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }

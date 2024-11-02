@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Build your own AI Dashboard",
+    "description": "Hackathon project to build a dashboard that can build and deploy AI models",
+    "techStack": ["React", "Next.js", "Tailwind CSS"],
+    "status": {
+      "name": "online",
+      "color": "green"
+    },
+    "imgSrc": "/company_logo/cimb.png"
+  },
+  {
+    "title": "Youtube channel",
+    "description": "Teaching programming for beginners in Malay",
+    "techStack": ["DaVinci Resolve", "Canva"],
+    "status": {
+      "name": "online",
+      "color": "green"
+    },
+    "imgSrc": "/project_img/sample.png"
+  }
+]
